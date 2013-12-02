@@ -1,0 +1,32 @@
+#ifdef _WIN32
+#ifdef _DEBUG
+#pragma comment(lib,"opencv_core246d.lib")
+#pragma comment(lib,"opencv_highgui246d.lib")
+#pragma comment(lib,"opencv_stitching246d.lib")
+//	#pragma comment(lib,"opencv_imgproc246d.lib")
+//	#pragma comment(lib,"opencv_objdetect246d.lib")
+//	#pragma comment(lib,"opencv_contrib246d.lib")
+//	#pragma comment(lib,"opencv_features2d246d.lib")
+//	#pragma comment(lib,"opencv_flann246d.lib")
+//	#pragma comment(lib,"opencv_gpu246d.lib")
+//	#pragma comment(lib,"opencv_haartraining_engined.lib")
+//	#pragma comment(lib,"opencv_legacy246d.lib")
+//	#pragma comment(lib,"opencv_ts246d.lib")
+//	#pragma comment(lib,"opencv_video246d.lib")
+//	#pragma comment(lib,"opencv_calib3d246d.lib")
+#else
+//	#pragma comment(lib,"opencv_core246.lib")
+//	#pragma comment(lib,"opencv_imgproc246.lib")
+//	#pragma comment(lib,"opencv_highgui246.lib")
+//	#pragma comment(lib,"opencv_objdetect246.lib")
+//	#pragma comment(lib,"opencv_contrib246.lib")
+//	#pragma comment(lib,"opencv_features2d246.lib")
+//	#pragma comment(lib,"opencv_flann246.lib")
+//	#pragma comment(lib,"opencv_gpu246.lib")
+//	#pragma comment(lib,"opencv_haartraining_engined.lib")
+//	#pragma comment(lib,"opencv_legacy246.lib")
+//	#pragma comment(lib,"opencv_ts246.lib")
+//	#pragma comment(lib,"opencv_video246.lib")
+//	#pragma comment(lib,"opencv_calib3d246.lib")
+#endif
+#endif
